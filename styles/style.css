@@ -1,0 +1,297 @@
+* {
+  font-family: Rajdhani;
+  color: #fff;
+}
+
+body {
+  background-color: rgb(0, 0, 0);
+}
+
+.header-intro {
+  max-height: 98vh;
+  overflow: hidden;
+  position: relative;
+}
+.header-intro .header-intro-videobg {
+  position: relative;
+  padding-bottom: 56.25%;
+  z-index: 1;
+}
+.header-intro .header-intro-videobg_media {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.header-intro_content {
+  max-width: 1450px;
+  margin: 0 auto;
+  position: absolute;
+  z-index: 3;
+}
+
+.header-intro:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  list-style-type: none;
+}
+.nav-item {
+  margin-left: 70px;
+}
+.nav-link {
+  font-size: 45px;
+  font-weight: 700;
+  text-decoration: none;
+}
+.nav-link:hover {
+  transition-duration: 0.3s;
+  color: #fab700;
+}
+
+.header-logovr {
+  margin-left: 70px;
+}
+
+.header-content {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  margin: 100px 0 0 500px;
+  padding: 40px 80px 120px 80px;
+}
+.header-content-title {
+  font-size: 60px;
+}
+.header-content-button {
+  background-color: white;
+  color: #000000;
+  font-size: 30px;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 15px 70px 15px 70px;
+  border-radius: 22px;
+}
+.header-content-button:hover {
+  transition-duration: 0.5s;
+  background-color: #fab700;
+}
+.header-content-text {
+  font-size: 22px;
+  padding: 20px;
+}
+.header-content-list {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+}
+.header-content-link {
+  text-decoration: none;
+  font-size: 20px;
+  background-color: white;
+  color: #000;
+  padding: 20px 35px 20px 35px;
+  border-radius: 20px;
+  margin: 10px;
+}
+.header-content-link:hover {
+  transition-duration: 0.5s;
+  background-color: rgb(214, 214, 214);
+}
+
+/*LOTS START*/
+.lots {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  margin: 75px 50px 0px 50px;
+}
+.lots_card-list {
+  display: flex;
+  gap: 25px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.lots_card-list-item {
+  display: block;
+  width: 430px;
+  min-height: 450px;
+  flex-grow: 1;
+}
+
+.information {
+  margin-bottom: 120px;
+}
+.information-title {
+  font-size: 45px;
+  text-align: center;
+}
+.information-text {
+  margin: 0 0 30px 300px;
+  display: block;
+  flex-shrink: 0;
+  font-size: 30px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: 1;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-link {
+  height: 100%;
+  text-decoration: none;
+}
+.card_title {
+  z-index: 2;
+  position: relative;
+  display: block;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 120%;
+  text-decoration: underline;
+  text-transform: uppercase;
+  padding: 50px 40px 30px;
+}
+.card_text {
+  display: block;
+  z-index: 2;
+  position: relative;
+  flex-shrink: 0;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 120%;
+  padding: 0 40px 50px;
+}
+
+.card_type_film {
+  background-image: url(../images/card-lot-01.png);
+}
+
+.card_type_book {
+  background-image: url(../images/card-lot-02.png);
+}
+
+.card_type_picture {
+  background-image: url(../images/card-lot-03.png);
+}
+
+.lots_look-more-link {
+  color: #000;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  align-self: flex-start;
+  justify-self: center;
+  padding-top: 30px;
+  padding-left: 40px;
+}
+
+.shop {
+  border: 5px #fff solid;
+  display: flex;
+  padding: 5px 75px 5px 75px;
+  justify-content: space-between;
+}
+.shop-content-title {
+  font-size: 45px;
+}
+.shop-content-text {
+  flex-shrink: 0;
+  font-size: 30px;
+}
+.shop-button {
+  font-size: 45px;
+  font-weight: 700;
+  border: 3px #fff solid;
+  background-color: transparent;
+  text-decoration: none;
+  margin: 40px 0 40px 0;
+  padding: 1px 100px 1px 100px;
+  text-align: center;
+}
+.shop-button:hover {
+  transition-duration: 0.5s;
+  background-color: #fab700;
+}
+.shop-image {
+  margin: 50px 100px 0 0;
+}
+
+.should {
+  display: flex;
+  margin: 90px 150px 90px 150px;
+  justify-content: space-between;
+  padding: 0 150px 0 150px;
+  align-items: center;
+}
+.should-title {
+  font-size: 45px;
+}
+.should-list-text {
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 70px 0px 70px;
+  border: 3px #fff solid;
+}
+.footer-list-item-title {
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+.footer-logo {
+  flex: 0 0 40%;
+}
+.footer-nav {
+  flex: 0 0 60%;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-list {
+  text-align: center;
+  list-style-type: none;
+  padding-bottom: 20px;
+}
+.footer-list-title {
+  font-size: 12px;
+  font-weight: 700;
+}
+.footer-list-item {
+  margin-bottom: 10px;
+}
+.footer-list-link {
+  text-decoration: none;
+  font-size: 18px;
+}/*# sourceMappingURL=style.css.map */
