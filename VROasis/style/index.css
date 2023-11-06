@@ -1,0 +1,235 @@
+@charset "UTF-8";
+* {
+  font-size: 16px;
+  font-family: "Press Start 2P", monospace;
+}
+
+.wrapper {
+  max-width: 1450px;
+  margin: 0 auto;
+}
+
+.page-dark {
+  background-color: #434B94;
+  color: white;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  list-style-type: none;
+  padding-left: 0;
+}
+.nav-item {
+  margin-left: 70px;
+}
+.nav-link {
+  color: white;
+  text-decoration: none;
+}
+.nav-link:hover {
+  color: #fab700;
+}
+.nav-item:first-child {
+  margin-left: -70px;
+}
+
+.header-logovr {
+  margin-right: 100px;
+}
+
+.cart {
+  background-image: url(../img/cart-svgrepo-com1.png);
+  background-position: 0 center;
+  background-repeat: no-repeat;
+  padding-left: 90px;
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-position: center;
+}
+.cart-count {
+  background-image: url(../img/стрелка.png);
+  background-position: 0 center;
+  background-repeat: no-repeat;
+  color: #434B94;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 15px 25px 12px 22px;
+  display: block;
+}
+
+.header-image {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.firm {
+  display: flex;
+}
+
+.header-advise {
+  display: flex;
+}
+
+.header-firms, .header-image {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 30px;
+}
+
+.header-firms {
+  list-style-type: none;
+}
+.header-firms .header-firm {
+  text-align: center;
+  background-color: white;
+  color: #171b38;
+  padding: 25px 40px;
+  border: 6px solid #171b38;
+  border-radius: 10px;
+  margin-top: 15px;
+  font-weight: 700;
+}
+.header-firms .header-firm-link {
+  text-decoration: none;
+  color: #171b38;
+}
+.header-firms .header-firm:hover {
+  color: #fab700;
+  border: 6px solid #fab700;
+}
+
+.main-advantages {
+  margin: 50px;
+}
+.main-advantages-h1 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.main-advantages-blocks {
+  list-style-type: none;
+  display: flex;
+}
+.main-advantages-block {
+  text-align: center;
+  color: white;
+  background-color: #434B94;
+  padding: 35px 25px;
+  border: 6px solid #fab700;
+  border-radius: 20px;
+  margin-left: 25px;
+}
+.main-advantages-block:first-child {
+  margin-left: -25px;
+}
+.main-advantages-block:hover {
+  background-color: #fab700;
+  border: 6px solid #434B94;
+  border-radius: 20px;
+  color: black;
+}
+
+.product {
+  margin-bottom: 30px;
+  border: 3px solid rgb(238, 238, 238);
+  border-radius: 20px;
+  margin-left: 25px;
+  display: block;
+}
+
+.product:hover {
+  border: 3px solid #BEC1DD;
+}
+
+.image {
+  margin-bottom: 10px;
+}
+
+.image img {
+  height: 300px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 7px;
+}
+
+h4 {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.rating {
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.rating li {
+  display: inline-block;
+  color: #fab700;
+}
+
+.info-price {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.add-to-cart {
+  border: none;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 7px;
+  border: 3px solid #5ec54a;
+  background-color: #7cda6a;
+}
+
+.price {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.page-shop {
+  margin-bottom: 20px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 0;
+}
+.footer-logo {
+  flex: 0 0 40%;
+}
+.footer-nav {
+  flex: 0 0 60%;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+.footer-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+.footer-list-title {
+  font-size: 12px;
+  font-weight: 700;
+}
+.footer-list-item {
+  margin-bottom: 10px;
+}
+.footer-list-link {
+  color: #D5D8EE;
+  text-decoration: none;
+  font-size: 16px;
+}/*# sourceMappingURL=index.css.map */
